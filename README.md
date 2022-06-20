@@ -1,3 +1,5 @@
+This is a chat up using react and firebase, currently in a stage where one-to-one chating is possible and currently working on one-to-many chat facilities.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
