@@ -14,6 +14,7 @@ const MessageForm = ({
 	setAudio,
 	user1,
 	user2,
+	setDocument,
 }) => {
 	const MicRecorder = require("mic-recorder-to-mp3");
 	const [preview, setPreview] = useState(false);

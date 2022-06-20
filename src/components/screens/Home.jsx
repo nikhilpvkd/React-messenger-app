@@ -29,6 +29,7 @@ function Home() {
 	const [images, setImage] = useState([]);
 	const [audio, setAudio] = useState("");
 	const [msgs, setMsg] = useState([]);
+	const [document, setDocument] = useState([]);
 	const [upldPrgs, setUpld] = useState(0);
 	const user1 = auth.currentUser.uid;
 
@@ -252,6 +253,7 @@ function Home() {
 							images={images}
 							setAudio={setAudio}
 							audio={audio}
+							setDocument={setDocument}
 						/>
 					</>
 				) : (
